@@ -1,0 +1,78 @@
+/*Style for the Index.html file*/
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	color: black;
+	font-family: Helvetica;
+	margin: 10px;
+}
+
+
+/*Menu specifics*/
+#chicken {
+	background-color: #DB7093;
+}
+
+#BROcoli {
+	background-color: #758B32;
+}
+
+.MenuTitle {
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	background-color: red;
+	width: 30%;
+	position: relative;
+	left: 70%;
+	margin-top: 0px;
+
+}
+
+.MenuTitle:hover {
+	background-color: blue !important; 
+	color: white;
+}
+
+
+
+.MenuBox {
+	border: 2px solid black;
+	background-color: gray;
+	margin: 1.5%;
+	float: left;
+}
+
+
+/*SETUP MEdia Responsive designs*/
+/*Browser size*/
+@media (min-width: 992px) {
+	.MenuBox {
+		width: calc(33.3% - 3%);
+	}
+}
+
+/*Tablet size*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.MenuBox {
+		width: calc(50% - 3%);
+	}
+
+	#Menu3 {
+		width: calc(100% - 3%)
+	}
+}
+
+/*Mobile size*/
+@media (max-width: 767px) {
+	.MenuBox {
+		width: 90%;
+	}
+}

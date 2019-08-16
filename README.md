@@ -1,3 +1,7 @@
+
+## Assignments
+[Assignment 2](site/Assignments/Assignment1/index.html)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Iglohut/coursera-test/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
