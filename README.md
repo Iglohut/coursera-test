@@ -3,6 +3,7 @@
 - [Assignment 2](site/Assignments/Assignment1/index.html)
 - [Assignment 3](site/Assignments/Assignment3/index.html)
 - [Assignment 4](site/Assignments/Assignment4/index.html)
+- [Assignment 5](site/Assignments/Assignment5/assignment5-solution-starter/index.html)
 
 ## Welcome to GitHub Pages
 
